@@ -1,0 +1,7 @@
+node has modules inside ready to use
+os : interactive with operate system
+path : allow to interact with the path of the file
+fs : file system can be async or sync
+http
+
+fs async vs sync

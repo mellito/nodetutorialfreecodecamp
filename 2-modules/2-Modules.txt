@@ -1,0 +1,36 @@
+commonjs every file is module (by default)
+modules  encapsulated code (only share minimum)
+
+modules only share the minimum so is the export part the one that we can asses
+
+  id: '.',
+  path: 'E:\\NodeTutorial\\2-modules',
+  exports: {},
+  filename: 'E:\\NodeTutorial\\2-modules\\names.js',
+  loaded: false,
+  children: [],
+  paths: [
+    'E:\\NodeTutorial\\2-modules\\node_modules',
+    'E:\\NodeTutorial\\node_modules',
+    'E:\\node_modules'
+  ]
+
+example 1
+
+// local
+const secret = "SUPER SECRET";
+//share
+const john = "john";
+const peter = "peter";
+
+module.exports = { john, peter };
+
+example 2
+
+const sayHi = (name) => {
+  console.log(`Hello there ${name}`);
+};
+
+module.exports = sayHi;
+
+when you require a module if that module have a method inside will be executed
