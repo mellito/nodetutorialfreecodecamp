@@ -1,0 +1,19 @@
+npm is use for
+1 use own code
+2 use code from someone else
+3 use package / library
+can be call package dependencies modules
+
+npm commands not allow
+npm - global commands
+mp --version
+
+npm i packageName use to install local dependencies
+
+npm install -g packageName global
+
+package.json - manifest file 
+create one with 
+npm init
+npm init -y to set default 
+npm i to install package    
